@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Compass LT';
+    src: url('CompassLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Compass';
+    src: url('CompassBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+header{
+	height: 800px;
+	width:100%;
+	background: #000;
+	color:#fff;
+}
+
+h1{
+	font-family: 'Compass' , sans-serif;
+	font-weight: bold;
+    font-style: normal;
+    font-size: 65px;
+    color:#fff;
+}
+
+img{
+	max-height: 586px;
+}
+
+.bg-light{
+	background: transparent!important;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+p{
+	font-family: 'Compass LT' , sans-serif;
+	font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    color:#fff;
+}
+
+.btn{
+	margin-top: 60px;
+	background: #FFA300;
+	border: #FFA300;
+	color:#fff;
+	font-family: 'Compass LT' , sans-serif;
+	font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color:#fff;
+}
+
+.btn:hover{
+	background: #0053B3;
+	border:#0053B3;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255);
+    border-color: transparent;
+}
+
+.navbar-light .navbar-toggler-icon{
+  background-image: url("../img/nav.svg")!important;
+  width:30px;
+  }
+
+
